@@ -25,10 +25,10 @@ In this Activity Selection Problem we were given a problem and were expected to 
 
 ### Explanation : 
 
-DATA STUCTURE USED - Vectors : start,end and difference.
-Start vector : Stores the start time of each activity.
-End vector : Stores the end time of each activity.
-Differnce vector : Stores the differnece(usage) of start and end time of each activity.
+DATA STUCTURE USED - Vectors : start,end and difference.<br />
+Start vector : Stores the start time of each activity.<br />
+End vector : Stores the end time of each activity.<br />
+Differnce vector : Stores the differnece(usage) of start and end time of each activity.<br />
 
 The approach to my solution is simple,<br /> 
 Step 01 : We iterate through the start and end vectors and store the difference of ith indices into the respective ith index in the difference               vector, this vector stores the usage of each given activities.<br />
