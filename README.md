@@ -8,16 +8,18 @@ Activity selection problem is a approach wherein we select the activity from the
 ### Problem Statement:
 In this Activity Selection Problem we were given a problem and were expected to Modify the selecting criteria and suggest a logic to select the activity with maximum duration of resource usage.
 
+
 | Index  | Start | End    |
 | -----  | ----- | ------ |
-| 1      | 1     | 4      |
-| 2      | 3     | 5      |
-| 3      | 0     | 6      |
-| 4      | 5     | 7      |
-| 5      | 3     | 8      |
-| 2      | 3     | 5      |
-| 1      | 1     | 4      |
-| 2      | 3     | 5      |
+| 1      | 0     | 1      |
+| 2      | 2     | 5      |
+| 3      | 4     | 7      |
+| 4      | 2     | 8      |
+| 5      | 5     | 9      |
+| 6      | 8     | 10     |
+| 7      | 9     | 11     |
+| 8      | 11    | 14     |
+| 9      | 13    | 16     |
 
 
 ### Output:
@@ -28,7 +30,7 @@ In this Activity Selection Problem we were given a problem and were expected to 
 DATA STUCTURE USED - Vectors : start,end and difference.<br />
 Start vector : Stores the start time of each activity.<br />
 End vector : Stores the end time of each activity.<br />
-Differnce vector : Stores the differnece(usage) of start and end time of each activity.<br />
+Difference vector : Stores the differnece(usage) of start and end time of each activity.<br />
 
 The approach to my solution is simple,<br /> 
 Step 01 : We iterate through the start and end vectors and store the difference of ith indices into the respective ith index in the difference               vector, this vector stores the usage of each given activities.<br />
