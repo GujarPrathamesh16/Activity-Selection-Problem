@@ -108,12 +108,14 @@ int main()
 }
 ```
 
+
 ### Output:
+```
 -----Selected Activities are----- 
 Activity - 1
 Activity - 4
 Activity - 8
-
+```
 
 ### Explanation : 
 
