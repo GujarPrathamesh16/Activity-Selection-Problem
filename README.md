@@ -20,6 +20,9 @@ In this Activity Selection Problem we were given a problem and were expected to 
 | 2      | 3     | 5      |
 
 
+### Output:
+
+
 ### Explanation : 
 
 DATA STUCTURE USED - Vectors : start,end and difference.
@@ -31,4 +34,4 @@ The approach to my solution is simple,<br />
 Step 01 : We iterate through the start and end vectors and store the difference of ith indices into the respective ith index in the difference               vector, this vector stores the usage of each given activities.<br />
 Step 02 : We again iterate and calculate the maximum usage activity (i.e. the activity with maximum difference value) from the difference vector.           This activity is selected.<br />
 Step 03 : In this step, we iterate the start vector and select a maximum activity from the set of activities such that the end time of each of the           activities is less than the start time of the activity selected in Step 02 using conditional statements.<br />
-Step 04 : Similiar to step 03, here we select maximum activities from the set of activities such that the start time of each of the selected                 activities is greater than or equal to the end time of activity selected in Step 02.<br />
+Step 04 : Similiar to step 03, here we select maximum activities from the set of activities such that the start time of each of the selected                 activities is greater than or equal to the end time of activity selected in Step 02 using conditional statements.<br />
