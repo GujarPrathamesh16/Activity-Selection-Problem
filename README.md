@@ -23,6 +23,7 @@ In this Activity Selection Problem we were given a problem and were expected to 
 
 ### Code:
 
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -105,6 +106,7 @@ int main()
     MaxUsage(start, end);
     return 0;
 }
+```
 
 ### Output:
 -----Selected Activities are----- 
