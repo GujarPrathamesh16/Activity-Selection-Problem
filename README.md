@@ -122,9 +122,31 @@ Activity - 8
 ```
    [1] vector<int> start = {0, 2, 4, 2, 1, 8, 10, 11, 13};
        vector<int> end = {2, 5, 7, 5, 9, 10, 12, 14, 16};
+           
+   [2] vector<int> start = {0, 1, 4, 2, 8, 8, 10, 11, 13};
+       vector<int> end = {2, 9, 7, 5, 9, 10, 12, 14, 15};
+       
+   [3] vector<int> start = {0, 2, 4, 3, 2, 10, 9, 11, 13};
+       vector<int> end = {1, 5, 7, 4, 9, 16, 11, 14, 16};
+       
+       
+   --OUTPUT:
+   
+      [1]
        -----Selected Activities are----- 
        Activity - 5
        Activity - 8
+       
+      [2]       
+       -----Selected Activities are----- 
+       Activity - 2
+       Activity - 8
+       
+      [3]
+       -----Selected Activities are----- 
+       Activity - 1
+       Activity - 5
+       Activity - 6
 
 ```
 
